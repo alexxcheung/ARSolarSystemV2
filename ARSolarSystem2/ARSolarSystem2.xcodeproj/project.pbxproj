@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110FBEB7228D93A9000C9FA6 /* MessageToPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FBEB6228D93A9000C9FA6 /* MessageToPlayer.swift */; };
+		110FBEB9228D94E5000C9FA6 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FBEB8228D94E5000C9FA6 /* Tracker.swift */; };
+		110FBEBB228D9826000C9FA6 /* SessionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FBEBA228D9826000C9FA6 /* SessionState.swift */; };
+		110FBEBD228DB463000C9FA6 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FBEBC228DB463000C9FA6 /* UIColor.swift */; };
+		110FBEBF228E12F8000C9FA6 /* PhysicsBodyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FBEBE228E12F8000C9FA6 /* PhysicsBodyType.swift */; };
+		110FBEC1228E1325000C9FA6 /* UILabelPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FBEC0228E1325000C9FA6 /* UILabelPadding.swift */; };
+		110FBEC3228E139A000C9FA6 /* Setup3Dobject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FBEC2228E139A000C9FA6 /* Setup3Dobject.swift */; };
+		110FBEC5228EF001000C9FA6 /* PopHelpMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FBEC4228EF001000C9FA6 /* PopHelpMenuViewController.swift */; };
+		1182572A2275FB5900FD6768 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118257292275FB5900FD6768 /* AppDelegate.swift */; };
+		1182572C2275FB5900FD6768 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1182572B2275FB5900FD6768 /* art.scnassets */; };
+		1182572E2275FB5900FD6768 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1182572D2275FB5900FD6768 /* MainViewController.swift */; };
+		118257312275FB5900FD6768 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1182572F2275FB5900FD6768 /* Main.storyboard */; };
+		118257332275FB5A00FD6768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118257322275FB5A00FD6768 /* Assets.xcassets */; };
+		118257362275FB5A00FD6768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118257342275FB5A00FD6768 /* LaunchScreen.storyboard */; };
+		1182573E227601FF00FD6768 /* FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1182573D227601FF00FD6768 /* FloatingPoint.swift */; };
+		118257402276024B00FD6768 /* SetupPlanet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1182573F2276024B00FD6768 /* SetupPlanet.swift */; };
+		118257422276028D00FD6768 /* SetupUniverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118257412276028D00FD6768 /* SetupUniverse.swift */; };
+		11825748227613D700FD6768 /* SetupUIDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11825747227613D700FD6768 /* SetupUIDisplay.swift */; };
+		1182575422773A4C00FD6768 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1182575322773A4C00FD6768 /* GameData.swift */; };
+		1182575622773ABC00FD6768 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1182575522773ABC00FD6768 /* Planet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		110FBEB6228D93A9000C9FA6 /* MessageToPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageToPlayer.swift; sourceTree = "<group>"; };
+		110FBEB8228D94E5000C9FA6 /* Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
+		110FBEBA228D9826000C9FA6 /* SessionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionState.swift; sourceTree = "<group>"; };
+		110FBEBC228DB463000C9FA6 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		110FBEBE228E12F8000C9FA6 /* PhysicsBodyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsBodyType.swift; sourceTree = "<group>"; };
+		110FBEC0228E1325000C9FA6 /* UILabelPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelPadding.swift; sourceTree = "<group>"; };
+		110FBEC2228E139A000C9FA6 /* Setup3Dobject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setup3Dobject.swift; sourceTree = "<group>"; };
+		110FBEC4228EF001000C9FA6 /* PopHelpMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopHelpMenuViewController.swift; sourceTree = "<group>"; };
+		118257262275FB5900FD6768 /* ARSolarSystem2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSolarSystem2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		118257292275FB5900FD6768 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1182572B2275FB5900FD6768 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		1182572D2275FB5900FD6768 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		118257302275FB5900FD6768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		118257322275FB5A00FD6768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		118257352275FB5A00FD6768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		118257372275FB5A00FD6768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1182573D227601FF00FD6768 /* FloatingPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPoint.swift; sourceTree = "<group>"; };
+		1182573F2276024B00FD6768 /* SetupPlanet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupPlanet.swift; sourceTree = "<group>"; };
+		118257412276028D00FD6768 /* SetupUniverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupUniverse.swift; sourceTree = "<group>"; };
+		11825747227613D700FD6768 /* SetupUIDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupUIDisplay.swift; sourceTree = "<group>"; };
+		1182575322773A4C00FD6768 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		1182575522773ABC00FD6768 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		118257232275FB5900FD6768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1182571D2275FB5900FD6768 = {
+			isa = PBXGroup;
+			children = (
+				118257282275FB5900FD6768 /* ARSolarSystem2 */,
+				118257272275FB5900FD6768 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		118257272275FB5900FD6768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				118257262275FB5900FD6768 /* ARSolarSystem2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		118257282275FB5900FD6768 /* ARSolarSystem2 */ = {
+			isa = PBXGroup;
+			children = (
+				118257292275FB5900FD6768 /* AppDelegate.swift */,
+				1182574D2277308800FD6768 /* Storyboard */,
+				118257512277350100FD6768 /* Models */,
+				1182574F227731B300FD6768 /* ViewController */,
+				1182574E2277319E00FD6768 /* AR */,
+				1182575222773A3E00FD6768 /* UI */,
+				118257502277326100FD6768 /* Extension */,
+				1182572B2275FB5900FD6768 /* art.scnassets */,
+				118257322275FB5A00FD6768 /* Assets.xcassets */,
+				118257342275FB5A00FD6768 /* LaunchScreen.storyboard */,
+				118257372275FB5A00FD6768 /* Info.plist */,
+			);
+			path = ARSolarSystem2;
+			sourceTree = "<group>";
+		};
+		1182574D2277308800FD6768 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1182572F2275FB5900FD6768 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		1182574E2277319E00FD6768 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				118257412276028D00FD6768 /* SetupUniverse.swift */,
+				1182573F2276024B00FD6768 /* SetupPlanet.swift */,
+				110FBEC2228E139A000C9FA6 /* Setup3Dobject.swift */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		1182574F227731B300FD6768 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1182572D2275FB5900FD6768 /* MainViewController.swift */,
+				110FBEC4228EF001000C9FA6 /* PopHelpMenuViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		118257502277326100FD6768 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1182573D227601FF00FD6768 /* FloatingPoint.swift */,
+				110FBEBC228DB463000C9FA6 /* UIColor.swift */,
+				110FBEC0228E1325000C9FA6 /* UILabelPadding.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		118257512277350100FD6768 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				110FBEB8228D94E5000C9FA6 /* Tracker.swift */,
+				110FBEBA228D9826000C9FA6 /* SessionState.swift */,
+				1182575522773ABC00FD6768 /* Planet.swift */,
+				110FBEB6228D93A9000C9FA6 /* MessageToPlayer.swift */,
+				1182575322773A4C00FD6768 /* GameData.swift */,
+				110FBEBE228E12F8000C9FA6 /* PhysicsBodyType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1182575222773A3E00FD6768 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				11825747227613D700FD6768 /* SetupUIDisplay.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		118257252275FB5900FD6768 /* ARSolarSystem2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1182573A2275FB5A00FD6768 /* Build configuration list for PBXNativeTarget "ARSolarSystem2" */;
+			buildPhases = (
+				118257222275FB5900FD6768 /* Sources */,
+				118257232275FB5900FD6768 /* Frameworks */,
+				118257242275FB5900FD6768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARSolarSystem2;
+			productName = ARSolarSystem2;
+			productReference = 118257262275FB5900FD6768 /* ARSolarSystem2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1182571E2275FB5900FD6768 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Alex Cheung";
+				TargetAttributes = {
+					118257252275FB5900FD6768 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 118257212275FB5900FD6768 /* Build configuration list for PBXProject "ARSolarSystem2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1182571D2275FB5900FD6768;
+			productRefGroup = 118257272275FB5900FD6768 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				118257252275FB5900FD6768 /* ARSolarSystem2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		118257242275FB5900FD6768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1182572C2275FB5900FD6768 /* art.scnassets in Resources */,
+				118257362275FB5A00FD6768 /* LaunchScreen.storyboard in Resources */,
+				118257332275FB5A00FD6768 /* Assets.xcassets in Resources */,
+				118257312275FB5900FD6768 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		118257222275FB5900FD6768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1182573E227601FF00FD6768 /* FloatingPoint.swift in Sources */,
+				110FBEBD228DB463000C9FA6 /* UIColor.swift in Sources */,
+				110FBEC3228E139A000C9FA6 /* Setup3Dobject.swift in Sources */,
+				1182572E2275FB5900FD6768 /* MainViewController.swift in Sources */,
+				110FBEB9228D94E5000C9FA6 /* Tracker.swift in Sources */,
+				110FBEC1228E1325000C9FA6 /* UILabelPadding.swift in Sources */,
+				118257422276028D00FD6768 /* SetupUniverse.swift in Sources */,
+				1182575622773ABC00FD6768 /* Planet.swift in Sources */,
+				110FBEBB228D9826000C9FA6 /* SessionState.swift in Sources */,
+				1182572A2275FB5900FD6768 /* AppDelegate.swift in Sources */,
+				1182575422773A4C00FD6768 /* GameData.swift in Sources */,
+				110FBEBF228E12F8000C9FA6 /* PhysicsBodyType.swift in Sources */,
+				110FBEB7228D93A9000C9FA6 /* MessageToPlayer.swift in Sources */,
+				110FBEC5228EF001000C9FA6 /* PopHelpMenuViewController.swift in Sources */,
+				11825748227613D700FD6768 /* SetupUIDisplay.swift in Sources */,
+				118257402276024B00FD6768 /* SetupPlanet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1182572F2275FB5900FD6768 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				118257302275FB5900FD6768 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		118257342275FB5A00FD6768 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				118257352275FB5A00FD6768 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		118257382275FB5A00FD6768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		118257392275FB5A00FD6768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1182573B2275FB5A00FD6768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3M89YG2JX8;
+				INFOPLIST_FILE = ARSolarSystem2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alexxcheungg.ARSolarSystem2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1182573C2275FB5A00FD6768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3M89YG2JX8;
+				INFOPLIST_FILE = ARSolarSystem2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alexxcheungg.ARSolarSystem2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		118257212275FB5900FD6768 /* Build configuration list for PBXProject "ARSolarSystem2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118257382275FB5A00FD6768 /* Debug */,
+				118257392275FB5A00FD6768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1182573A2275FB5A00FD6768 /* Build configuration list for PBXNativeTarget "ARSolarSystem2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1182573B2275FB5A00FD6768 /* Debug */,
+				1182573C2275FB5A00FD6768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1182571E2275FB5900FD6768 /* Project object */;
+}
