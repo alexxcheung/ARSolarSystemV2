@@ -27,6 +27,7 @@
 		11825748227613D700FD6768 /* SetupUIDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11825747227613D700FD6768 /* SetupUIDisplay.swift */; };
 		1182575422773A4C00FD6768 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1182575322773A4C00FD6768 /* GameData.swift */; };
 		1182575622773ABC00FD6768 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1182575522773ABC00FD6768 /* Planet.swift */; };
+		118CC31C22B46A8600CD3B97 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118CC31B22B46A8600CD3B97 /* UIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		11825747227613D700FD6768 /* SetupUIDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupUIDisplay.swift; sourceTree = "<group>"; };
 		1182575322773A4C00FD6768 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
 		1182575522773ABC00FD6768 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		118CC31B22B46A8600CD3B97 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				1182573D227601FF00FD6768 /* FloatingPoint.swift */,
 				110FBEBC228DB463000C9FA6 /* UIColor.swift */,
 				110FBEC0228E1325000C9FA6 /* UILabelPadding.swift */,
+				118CC31B22B46A8600CD3B97 /* UIButton.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				118CC31C22B46A8600CD3B97 /* UIButton.swift in Sources */,
 				1182573E227601FF00FD6768 /* FloatingPoint.swift in Sources */,
 				110FBEBD228DB463000C9FA6 /* UIColor.swift in Sources */,
 				110FBEC3228E139A000C9FA6 /* Setup3Dobject.swift in Sources */,

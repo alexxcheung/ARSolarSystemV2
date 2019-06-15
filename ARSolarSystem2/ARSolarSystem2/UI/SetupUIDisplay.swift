@@ -132,15 +132,11 @@ extension MainViewController {
         popupViewController.modalTransitionStyle   = .crossDissolve
         popupViewController.modalPresentationStyle = .overCurrentContext
         
-        popupView.backgroundColor = .init(white: 1, alpha: 0.5)
-        
+        popupView.backgroundColor = .init(white: 1, alpha: 0.7)
         
         self.present(popupViewController, animated: true, completion: nil)
     }
-    
-    
-    
-    
+     
 }
 
 

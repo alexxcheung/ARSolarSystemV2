@@ -19,13 +19,14 @@ class MainViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        setupSceneView()
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setupSceneView()
         setupGestureRecognizer()
+        
         addHelpButton(view: sceneView)
         addMessageBox(messageToPlayer: messageDict["InstructionPlaceUniverse"]!, view: sceneView)
     }
