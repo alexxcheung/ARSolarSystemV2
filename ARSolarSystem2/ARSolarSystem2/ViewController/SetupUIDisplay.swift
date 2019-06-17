@@ -25,14 +25,13 @@ extension MainViewController {
             
             button.addTarget(self, action: #selector(self.helpMenuButton_clicked), for: .touchUpInside)
             
-            view.addSubview(button)
-            
-            //constraint
-            button.translatesAutoresizingMaskIntoConstraints = false
-            button.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 15).isActive = true
-            button.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20).isActive = true
-            button.widthAnchor.constraint(equalToConstant: 40).isActive = true
-            button.heightAnchor.constraint(equalToConstant: 40).isActive = true
+//            view.addSubview(button)
+
+            //            button.translatesAutoresizingMaskIntoConstraints = false
+//            button.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 15).isActive = true
+//            button.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20).isActive = true
+//            button.widthAnchor.constraint(equalToConstant: 40).isActive = true
+//            button.heightAnchor.constraint(equalToConstant: 40).isActive = true
         }
         
     }
@@ -129,6 +128,7 @@ extension MainViewController {
         guard let popupViewController = storyboard?.instantiateViewController(withIdentifier: "PopHelpMenuViewController") else {return}
         guard let popupView = popupViewController.view else {return}
         
+        
         popupViewController.modalTransitionStyle   = .crossDissolve
         popupViewController.modalPresentationStyle = .overCurrentContext
         
@@ -136,6 +136,8 @@ extension MainViewController {
         
         self.present(popupViewController, animated: true, completion: nil)
     }
+    
+   
      
 }
 

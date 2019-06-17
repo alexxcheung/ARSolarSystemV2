@@ -46,6 +46,9 @@ func show3DMessage (message: String, view: ARSCNView) {
 }
 
 public func removeNode(named:String, view: ARSCNView){
+    guard view.scene.rootNode.childNodes.isEmpty == false else {return}
+    print(view.scene.rootNode.childNodes.count)
+    
     view.scene.rootNode.enumerateChildNodes { (node, _) in
         if node.name == named {
             node.removeFromParentNode()

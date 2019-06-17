@@ -136,6 +136,8 @@ extension MainViewController: UIGestureRecognizerDelegate {
             Global.shared.sunNode.isPaused = false
             
             resetScene()
+            addPlanet(trackerPosition: tracker.placingPosition!, view: sceneView)
+
             addMessageBox(messageToPlayer: messageDict["LearningModeOn"]! + "\n" + messageDict["InstructionOnLearningMode"]!, view: sceneView)
         }
     }
@@ -217,17 +219,23 @@ extension MainViewController {
     }
     
     func resetScene() {
+        
         for planet in planetName {
             removeNode(named: planet, view: sceneView)
         }
+
         removeNode(named: "3DMessage", view: sceneView)
         removeNode(named: "UFO", view: sceneView)
         removeNode(named: "Light", view: sceneView)
         removeNode(named: "The Sun", view: sceneView)
         removeNode(named: "HelperNode", view: sceneView)
         
-        addPlanet(trackerPosition: tracker.placingPosition!, view: sceneView)
+        
     }
+    
+    
+    
+    
 }
 
 extension MainViewController: SCNPhysicsContactDelegate {

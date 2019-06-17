@@ -11,14 +11,11 @@ import UIKit
 class PopHelpMenuViewController: UIViewController {
 
     let backgroundView = UIView()
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setupUIView()
-        
-        
     }
     
     func setupUIView() {
@@ -55,7 +52,7 @@ class PopHelpMenuViewController: UIViewController {
         myStackView.alignment = .center
         myStackView.spacing = 30.0
         
-        myStackView.addArrangedSubview(resetButton)
+//        myStackView.addArrangedSubview(resetButton)
         myStackView.addArrangedSubview(hintButton)
         myStackView.addArrangedSubview(cancelButton)
         
@@ -80,17 +77,24 @@ class PopHelpMenuViewController: UIViewController {
     }
     
     @objc func handleResetButton() {
-        //print ResetButton Reset
+        self.dismiss(animated: true, completion: nil)
+        
+        MainViewController().resetScene()
+        
+        let alertController = UIAlertController(title: "Reset Successful", message: "Create your universe from the beginning!", preferredStyle: UIAlertController.Style.alert)
+        let okAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
+        alertController.addAction(okAction)
     }
     
     
-    
     @objc func handleHintButton() {
-        
+//        self.dismiss(animated: true, completion: nil)
+        //show the hint
     }
     
     @objc func handleCancelButton() {
         self.dismiss(animated: true, completion: nil)
     }
+    
     
 }

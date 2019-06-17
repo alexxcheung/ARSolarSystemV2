@@ -15,7 +15,7 @@ extension UIButton {
         
         button.backgroundColor = .black
         button.tintColor = .white
-        button.layer.borderWidth = 2
+        button.layer.borderWidth = 0.5
         button.layer.borderColor = UIColor.themePink.cgColor
         button.titleLabel?.lineBreakMode = .byWordWrapping
         button.titleLabel?.textAlignment = .center
